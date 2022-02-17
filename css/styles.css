@@ -19,7 +19,7 @@ button {
   width: 1200px;
 }
 .section {
-  padding: 94px 0;
+  padding-bottom: 94px;
   outline: red solid;
 }
 .footer {
@@ -33,7 +33,13 @@ button {
 .header {
   background-color: var(--white-color);
 }
-
+.second-section,
+.section-portfolio {
+  padding-top: 94px;
+}
+.section-employee {
+  background-color: #f5f4fa;
+}
 .page-nav,
 .header-container,
 .contacts,
@@ -282,11 +288,6 @@ button {
   flex-wrap: wrap;
   margin: -15px;
 }
-
-/* .portfolio-list-items:not(:nth-child(3n + 3)) {
-  margin-right: 30px;
-}
-} */
 
 .portfolio-list-items {
   flex-basis: calc(100% / 3 - 30px);
